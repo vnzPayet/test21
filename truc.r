@@ -2,6 +2,7 @@
 ## VP 
 ##
 
-values <- rnorm(100)
+nbTirage <- 100
 
+values <- rnorm(nbTirage)
 hist(values, col="blue")
